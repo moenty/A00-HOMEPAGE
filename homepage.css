@@ -1,0 +1,87 @@
+@import "reset.css";
+
+body {
+    background-image: url(back.jpg);
+    background-size: 100% auto;
+}
+
+a {
+    text-decoration: none;
+    font-style: inherit;
+    color: black;
+}
+
+header, footer {
+    border-bottom: 2px solid black;
+    border-top: 2px olid black;
+}
+
+header a {
+    border-radius: 10%;
+    border: 5px solid white;
+    box-shadow: 0 5px rgba(0,0,0,.1);
+}
+
+.links a{
+    padding: 1rem;
+    border: 1px solid rgb(238, 214, 214);
+    box-shadow: 0 5px rgba(0,0,0,.1);
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+header h1 {
+    text-align: right;
+    margin-top: -80px;
+    margin-right: 5%;
+    
+}
+
+header h2 {
+    text-align: right;
+    margin-bottom: 1rem;
+    margin-right: 5%;
+}
+
+footer {
+    text-align: right;
+    font-size: x-large;
+    margin: 1rem;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main a {
+    padding: 1rem;
+    text-align: center;
+    height: 225px;
+    width: 350px;
+    border: 5px solid white;
+    box-shadow: 0 5px rgba(0,0,0,.1);
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10%;
+    background-image: url(aback.png);
+    background-size: 100% auto;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.main a:hover{
+    
+    transform: scale(1.3);
+}
+
+.about {
+    display: block;
+}
